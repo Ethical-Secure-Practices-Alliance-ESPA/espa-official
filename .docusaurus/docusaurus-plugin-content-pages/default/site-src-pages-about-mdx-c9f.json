@@ -1,0 +1,13 @@
+{
+  "type": "mdx",
+  "permalink": "/about",
+  "source": "@site/src/pages/about.mdx",
+  "title": "About ESPA",
+  "description": "About E.S.P.A.",
+  "frontMatter": {
+    "id": "about",
+    "title": "About ESPA",
+    "sidebar_label": "About"
+  },
+  "unlisted": false
+}

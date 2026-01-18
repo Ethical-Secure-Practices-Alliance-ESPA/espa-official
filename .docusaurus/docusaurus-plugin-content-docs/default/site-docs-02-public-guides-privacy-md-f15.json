@@ -1,0 +1,30 @@
+{
+  "id": "Public-Guides/privacy",
+  "title": "Privacy",
+  "description": "What is Privacy?",
+  "source": "@site/docs/02-Public-Guides/privacy.md",
+  "sourceDirName": "02-Public-Guides",
+  "slug": "/Public-Guides/privacy",
+  "permalink": "/docs/Public-Guides/privacy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/02-Public-Guides/privacy.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "privacy",
+    "title": "Privacy",
+    "sidebar_label": "Privacy",
+    "sidebar_position": 5
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Ethical Open Source",
+    "permalink": "/docs/Public-Guides/ethical-open-source"
+  },
+  "next": {
+    "title": "Secure Storage",
+    "permalink": "/docs/Public-Guides/secure-storage"
+  }
+}

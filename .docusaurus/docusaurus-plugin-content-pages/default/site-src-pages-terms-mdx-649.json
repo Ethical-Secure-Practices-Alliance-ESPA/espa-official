@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/terms",
+  "source": "@site/src/pages/terms.mdx",
+  "title": "Terms of Service",
+  "description": "Terms of Service",
+  "frontMatter": {
+    "title": "Terms of Service"
+  },
+  "unlisted": false
+}

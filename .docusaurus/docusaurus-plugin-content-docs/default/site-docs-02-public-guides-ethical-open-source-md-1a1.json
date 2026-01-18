@@ -1,0 +1,30 @@
+{
+  "id": "Public-Guides/ethical-open-source",
+  "title": "Ethical Open Source",
+  "description": "Introduction / Why Ethical Open Source Matters",
+  "source": "@site/docs/02-Public-Guides/ethical-open-source.md",
+  "sourceDirName": "02-Public-Guides",
+  "slug": "/Public-Guides/ethical-open-source",
+  "permalink": "/docs/Public-Guides/ethical-open-source",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/02-Public-Guides/ethical-open-source.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "ethical-open-source",
+    "title": "Ethical Open Source",
+    "sidebar_label": "Ethical Open Source",
+    "sidebar_position": 4
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Account Management",
+    "permalink": "/docs/Public-Guides/account-management"
+  },
+  "next": {
+    "title": "Privacy",
+    "permalink": "/docs/Public-Guides/privacy"
+  }
+}

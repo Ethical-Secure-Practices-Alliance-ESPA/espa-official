@@ -1,0 +1,11 @@
+{
+  "type": "mdx",
+  "permalink": "/legal",
+  "source": "@site/src/pages/legal.mdx",
+  "title": "Legal Notice",
+  "description": "1\\. Legal Status",
+  "frontMatter": {
+    "title": "Legal Notice"
+  },
+  "unlisted": false
+}

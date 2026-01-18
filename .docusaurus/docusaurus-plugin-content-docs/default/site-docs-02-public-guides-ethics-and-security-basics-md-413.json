@@ -1,0 +1,29 @@
+{
+  "id": "Public-Guides/ethics-and-security-basics",
+  "title": "Foundations of Ethics & Security",
+  "description": "Why Ethics & Security Matter",
+  "source": "@site/docs/02-Public-Guides/ethics-and-security-basics.md",
+  "sourceDirName": "02-Public-Guides",
+  "slug": "/Public-Guides/ethics-and-security-basics",
+  "permalink": "/docs/Public-Guides/ethics-and-security-basics",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/02-Public-Guides/ethics-and-security-basics.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Foundations of Ethics & Security",
+    "sidebar_position": 1,
+    "sidebar_title": "Ethics & Security Overview"
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Who We Serve",
+    "permalink": "/docs/Governance/who-we-serve"
+  },
+  "next": {
+    "title": "Network Security Setup",
+    "permalink": "/docs/Public-Guides/network-security"
+  }
+}

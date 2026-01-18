@@ -1,0 +1,30 @@
+{
+  "id": "Public-Guides/account-management",
+  "title": "Account Management",
+  "description": "Introduction / Why Account Management Matters",
+  "source": "@site/docs/02-Public-Guides/account-management.md",
+  "sourceDirName": "02-Public-Guides",
+  "slug": "/Public-Guides/account-management",
+  "permalink": "/docs/Public-Guides/account-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/02-Public-Guides/account-management.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "account-management",
+    "title": "Account Management",
+    "sidebar_label": "Account Management",
+    "sidebar_position": 3
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Network Security Setup",
+    "permalink": "/docs/Public-Guides/network-security"
+  },
+  "next": {
+    "title": "Ethical Open Source",
+    "permalink": "/docs/Public-Guides/ethical-open-source"
+  }
+}

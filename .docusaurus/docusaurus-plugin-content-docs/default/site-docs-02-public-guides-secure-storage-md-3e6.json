@@ -1,0 +1,30 @@
+{
+  "id": "Public-Guides/secure-storage",
+  "title": "Secure Storage",
+  "description": "Introduction / Why Secure Storage Matters",
+  "source": "@site/docs/02-Public-Guides/secure-storage.md",
+  "sourceDirName": "02-Public-Guides",
+  "slug": "/Public-Guides/secure-storage",
+  "permalink": "/docs/Public-Guides/secure-storage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/02-Public-Guides/secure-storage.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 6,
+  "frontMatter": {
+    "id": "secure-storage",
+    "title": "Secure Storage",
+    "sidebar_label": "Secure Storage",
+    "sidebar_position": 6
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Privacy",
+    "permalink": "/docs/Public-Guides/privacy"
+  },
+  "next": {
+    "title": "Advanced Security Practices",
+    "permalink": "/docs/Supporter-Guides/advanced-security-practices"
+  }
+}

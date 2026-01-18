@@ -1,0 +1,73 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "Governance/governance",
+          "docs": [
+            {
+              "id": "Governance/governance",
+              "path": "/docs/Governance/governance",
+              "sidebar": "documentation"
+            },
+            {
+              "id": "Governance/who-we-serve",
+              "path": "/docs/Governance/who-we-serve",
+              "sidebar": "documentation"
+            },
+            {
+              "id": "Public-Guides/account-management",
+              "path": "/docs/Public-Guides/account-management",
+              "sidebar": "documentation"
+            },
+            {
+              "id": "Public-Guides/ethical-open-source",
+              "path": "/docs/Public-Guides/ethical-open-source",
+              "sidebar": "documentation"
+            },
+            {
+              "id": "Public-Guides/ethics-and-security-basics",
+              "path": "/docs/Public-Guides/ethics-and-security-basics",
+              "sidebar": "documentation"
+            },
+            {
+              "id": "Public-Guides/network-security",
+              "path": "/docs/Public-Guides/network-security",
+              "sidebar": "documentation"
+            },
+            {
+              "id": "Public-Guides/privacy",
+              "path": "/docs/Public-Guides/privacy",
+              "sidebar": "documentation"
+            },
+            {
+              "id": "Public-Guides/secure-storage",
+              "path": "/docs/Public-Guides/secure-storage",
+              "sidebar": "documentation"
+            },
+            {
+              "id": "Supporter-Guides/advanced-security-practices",
+              "path": "/docs/Supporter-Guides/advanced-security-practices",
+              "sidebar": "documentation"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "documentation": {
+              "link": {
+                "path": "/docs/Governance/governance",
+                "label": "Governance/governance"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

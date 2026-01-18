@@ -1,0 +1,30 @@
+{
+  "id": "Public-Guides/network-security",
+  "title": "Network Security Setup",
+  "description": "Introduction / Why Network Security Matters",
+  "source": "@site/docs/02-Public-Guides/network-security.md",
+  "sourceDirName": "02-Public-Guides",
+  "slug": "/Public-Guides/network-security",
+  "permalink": "/docs/Public-Guides/network-security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/02-Public-Guides/network-security.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "network-security",
+    "title": "Network Security Setup",
+    "sidebar_label": "Network Security Setup",
+    "sidebar_position": 2
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Foundations of Ethics & Security",
+    "permalink": "/docs/Public-Guides/ethics-and-security-basics"
+  },
+  "next": {
+    "title": "Account Management",
+    "permalink": "/docs/Public-Guides/account-management"
+  }
+}

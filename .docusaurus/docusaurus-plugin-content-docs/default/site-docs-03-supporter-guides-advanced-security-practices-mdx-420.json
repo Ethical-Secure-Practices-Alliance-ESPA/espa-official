@@ -1,0 +1,24 @@
+{
+  "id": "Supporter-Guides/advanced-security-practices",
+  "title": "Advanced Security Practices",
+  "description": "This guide is designed for ESPA supporters who want to strengthen their ethical and security practices beyond the basics.",
+  "source": "@site/docs/03-Supporter-Guides/advanced-security-practices.mdx",
+  "sourceDirName": "03-Supporter-Guides",
+  "slug": "/Supporter-Guides/advanced-security-practices",
+  "permalink": "/docs/Supporter-Guides/advanced-security-practices",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/03-Supporter-Guides/advanced-security-practices.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "title": "Advanced Security Practices",
+    "sidebar_position": 1
+  },
+  "sidebar": "documentation",
+  "previous": {
+    "title": "Secure Storage",
+    "permalink": "/docs/Public-Guides/secure-storage"
+  }
+}
