@@ -33,6 +33,6 @@ jobs:
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}  # automatically provided by GitHub
+          github_token: ${{ secrets.GH_PAT }}  # automatically provided by GitHub
           publish_dir: ./build
           keep_files: false
