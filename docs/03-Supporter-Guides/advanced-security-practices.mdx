@@ -1,0 +1,164 @@
+---
+title: Advanced Security Practices
+sidebar_position: 1
+---
+
+import TooltipBox from '@site/src/components/TooltipBox.js';
+import SupporterTokenGate from '@site/src/components/SupporterTokenGate.js';
+
+<SupporterTokenGate>
+
+# Advanced Security Practices
+
+This guide is designed for ESPA supporters who want to strengthen their ethical and security practices beyond the basics.  
+It combines practical steps, ethical considerations, and references to authoritative sources.
+
+> **Note:** This guide assumes readers already understand foundational practices covered in [Foundations of Ethics & Security](../02-Public-Guides/ethics-and-security-basics.md).
+
+---
+
+## Table of Contents
+
+1. [Identity & Access Management](#identity-access-management)  
+2. [Network Security](#network-security)  
+3. [Data Protection & Encryption](#data-protection-encryption)  
+4. [Ethical Digital Practices](#ethical-digital-practices)  
+5. [Continuous Review & Improvement](#continuous-review-improvement)  
+6. [References & Further Reading](#references)
+
+---
+
+## Identity & Access Management {#identity-access-management}
+
+Proper IAM reduces the risk of unauthorized access and data breaches.
+
+- **Strong, unique credentials:** Use a password manager to generate and store high-entropy passwords. According to [NIST SP 800-63B](https://pages.nist.gov/800-63-3/sp800-63b.html), long passphrases with randomization are more secure than complex character substitutions.  
+
+- **Multi-factor authentication (MFA):** Prefer hardware-based security keys (FIDO2) over SMS MFA, which can be intercepted. [OWASP Authentication Cheat Sheet, 2023](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)  
+
+- **Role-based access control (RBAC):** Limit permissions to only what users or devices need to perform their tasks. This follows the *principle of least privilege*, recommended by [CIS Controls v8](https://www.cisecurity.org/controls/cis-controls-list/)  
+
+- **Regular audits:** Periodically review account access and privileges. Remove unused accounts promptly to reduce attack surface.
+
+<TooltipBox title="MFA" domain="iam">
+Multi-factor authentication is an extra verification step beyond username/password, such as an authenticator app or hardware key.
+</TooltipBox>
+
+<TooltipBox title="RBAC" domain="iam">
+Role-Based Access Control; organizes users into roles with predefined access levels to reduce risk.
+</TooltipBox>
+
+<TooltipBox title="Principle of Least Privilege" domain="iam">
+Users or systems are granted only the access necessary for their roles. This minimizes damage if an account or device is compromised.
+</TooltipBox>
+
+---
+
+## Network Security (Home & Work) {#network-security}
+
+Securing networks is essential for individuals and organizations.
+
+- **DNS & Filtering:** Use privacy-respecting DNS services, e.g., [Quad9](https://www.quad9.net/), which blocks known malicious domains.  
+- **Segmentation:** Separate IoT, guest, and sensitive devices on different network segments.  
+- **Firewalls & Monitoring:** Enable firewalls and monitor traffic for unusual patterns.  
+- **Patch Management:** Keep all routers, firmware, and devices updated with security patches.  
+
+<TooltipBox title="Network Segmentation" domain="network">
+Dividing a network into zones to isolate devices and reduce potential attack surfaces.
+</TooltipBox>
+
+<TooltipBox title="Patch Management" domain="network">
+Regularly updating software, firmware, and systems to fix security vulnerabilities.
+</TooltipBox>
+
+<TooltipBox title="Privacy-Respecting DNS" domain="network">
+A DNS resolver that blocks malicious domains and does not log or sell user data.
+</TooltipBox>
+
+---
+
+## Data Protection & Encryption {#data-protection-encryption}
+
+Protecting sensitive data is critical for privacy and ethical responsibility.
+
+- **Encryption at rest:** Store sensitive data encrypted on devices and servers.  
+- **Encryption in transit:** Use HTTPS/TLS for all communications.  
+- **Secure Backups:** Keep multiple copies in physically separated or encrypted storage.  
+- **Least-privilege sharing:** Only share documents with necessary parties.
+
+<TooltipBox title="Encryption at Rest" domain="data">
+Encrypting stored data so it cannot be accessed by unauthorized parties.
+</TooltipBox>
+
+<TooltipBox title="Encryption in Transit" domain="data">
+Encrypting data while it is being transmitted over networks to prevent interception.
+</TooltipBox>
+
+<TooltipBox title="Secure Backup" domain="data">
+Maintaining multiple copies of critical data in different physical or encrypted locations to prevent loss.
+</TooltipBox>
+
+---
+
+## Ethical Digital Practices {#ethical-digital-practices}
+
+Security is inseparable from ethics.
+
+- **Tool Evaluation:** Avoid services that exploit user data or violate consent.  
+- **Transparency:** Document team decisions, policies, and access rights.  
+- **Responsible Sharing:** Respect others’ data and privacy.  
+- **Education:** Train yourself and your team continuously.
+
+<TooltipBox title="Ethical Digital Practices" domain="ethics">
+Principles and actions that ensure technology is used responsibly, respecting privacy, consent, and fairness.
+</TooltipBox>
+
+<TooltipBox title="Transparency" domain="ethics">
+Being clear and open about data use, decisions, and practices within an organization or community.
+</TooltipBox>
+
+---
+
+## Continuous Review & Improvement {#continuous-review-improvement}
+
+Ethics and security evolve constantly. Adopt a mindset of continuous improvement:
+
+- Schedule periodic audits for systems, access, and policies  
+- Track changes, incidents, and lessons learned  
+- Update practices based on emerging threats or standards  
+- Encourage a culture of reflection, not blame
+
+<TooltipBox title="Continuous Improvement" domain="ethics">
+Ongoing process of evaluating and enhancing security and ethical practices to adapt to evolving risks.
+</TooltipBox>
+
+---
+
+## Outcome
+
+After implementing the practices in this guide, readers and organizations will:
+
+- Apply advanced privacy-focused security measures  
+- Build a sustainable foundation for ethical digital operations  
+- Foster trust and reliability within their networks and communities
+
+---
+
+## References & Further Reading {#references}
+
+1. NIST Special Publication 800-63B: Digital Identity Guidelines – Authentication and Lifecycle Management (2017–current)  
+   [https://pages.nist.gov/800-63-3/sp800-63b.html](https://pages.nist.gov/800-63-3/sp800-63b.html)
+
+2. OWASP Authentication Cheat Sheet, 2023  
+   [https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
+
+3. Center for Internet Security (CIS) Controls v8 (2022–2023)  
+   [https://www.cisecurity.org/controls/cis-controls-list/](https://www.cisecurity.org/controls/cis-controls-list/)
+
+4. Quad9 DNS Security Service  
+   [https://www.quad9.net/](https://www.quad9.net/)
+
+5. Electronic Frontier Foundation (EFF) Security Tips  
+   [https://www.eff.org/pages/security](https://www.eff.org/pages/security)
+
+</SupporterTokenGate>

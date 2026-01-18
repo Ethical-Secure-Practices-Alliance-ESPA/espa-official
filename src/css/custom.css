@@ -1,0 +1,167 @@
+/* ================================
+   ESPA Brand Variables
+================================ */
+:root {
+  --ifm-color-primary: #d32f2f;
+  --ifm-color-primary-dark: #9a0007;
+  --ifm-color-primary-darker: #7f0005;
+  --ifm-color-primary-light: #e53935;
+  --ifm-color-primary-lighter: #ef5350;
+
+  --ifm-font-family-base: 'Inter', system-ui, -apple-system, sans-serif;
+  --ifm-heading-font-family: 'Inter', system-ui, -apple-system, sans-serif;
+
+  --ifm-background-color: #ffffff;
+  --ifm-font-color-base: #333333;
+  --ifm-heading-color: #b71c1c;
+}
+
+/* ================================
+   Global Typography (Respect Theme)
+================================ */
+p {
+  line-height: 1.7;
+}
+
+a {
+  text-decoration: underline;
+}
+
+/* ================================
+   Docs Content Improvements
+================================ */
+.markdown h1,
+.markdown h2,
+.markdown h3 {
+  margin-top: 2.5rem;
+}
+
+.markdown blockquote {
+  border-left: 4px solid var(--ifm-color-primary);
+  background-color: #fdecea;
+  padding: 1rem;
+  border-radius: 6px;
+}
+
+/* ================================
+   Code Blocks
+================================ */
+code {
+  background-color: #f5f5f5;
+  border-radius: 4px;
+}
+
+pre {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+}
+
+/* ================================
+   Tables
+================================ */
+.markdown table {
+  border-collapse: collapse;
+}
+
+.markdown th {
+  background-color: var(--ifm-color-primary);
+  color: #ffffff;
+}
+
+/* ================================
+   ESPA TooltipBox Component
+================================ */
+.tooltipBox {
+  border-left: 6px solid var(--ifm-color-primary);
+  background-color: #fdecea;
+  padding: 1rem 1.25rem;
+  margin: 1.5rem 0;
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+
+.tooltipBox[data-domain="network"] {
+  background-color: #eeeeee;
+  border-left-color: #424242;
+}
+
+.tooltipBox[data-domain="ethics"] {
+  background-color: #fff3e0;
+  border-left-color: #ff9800;
+}
+
+.tooltipBox[data-domain="data"] {
+  background-color: #f3e5f5;
+  border-left-color: #9c27b0;
+}
+
+/* ================================
+   Navbar & Footer
+================================ */
+.navbar {
+  box-shadow: none;
+}
+
+.footer {
+  font-size: 0.9rem;
+}
+
+/* ================================
+   Homepage Safety (index.js)
+================================ */
+.hero {
+  padding: 4rem 0;
+}
+
+/* ================================
+   Navbar Logo Sizing
+================================ */
+
+/* Increase navbar height slightly */
+.navbar {
+  min-height: 100px;
+}
+
+/* Control logo size explicitly */
+.navbar__logo {
+  height: 56px;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+
+/* Prevent logo from being squashed */
+.navbar__logo img {
+  height: 100px;
+  width: auto;
+  max-height: none;
+}
+
+/* ================================
+   ESPA Homepage Hero
+================================ */
+
+.espa-hero {
+  background-color: #d32f2f; /* ESPA red */
+  padding: 5rem 1rem;
+  text-align: center;
+}
+
+.espa-hero h1 {
+  color: #ffffff;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.espa-hero p {
+  color: #ffffff;
+  font-size: 1.25rem;
+  max-width: 720px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+
+
+

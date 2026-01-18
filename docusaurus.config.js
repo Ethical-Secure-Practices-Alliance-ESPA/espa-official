@@ -1,0 +1,119 @@
+// @ts-check
+import { themes as prismThemes } from 'prism-react-renderer';
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
+  title: 'ESPA Docs',
+  tagline: 'Ethical & Secure Practices Alliance',
+  favicon: 'img/favicon.ico',
+
+  url: 'https://your-espa-site.example.com', // replace with your production URL
+  baseUrl: '/',
+
+  organizationName: 'Ethical-Secure-Practices-Alliance-ESPA',
+  projectName: 'espa-docs',
+
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en'],
+  },
+
+  presets: [
+    [
+      'classic',
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
+        docs: {
+          sidebarPath: require.resolve('./sidebars.js'),
+          editUrl:
+            'https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/',
+        },
+        blog: false,
+        theme: {
+          customCss: require.resolve('./src/css/custom.css'),
+        },
+      }),
+    ],
+  ],
+
+  themeConfig:
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      image: 'img/docusaurus-social-card.jpg',
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
+      navbar: {
+        logo: {
+          alt: 'ESPA Logo',
+          src: 'img/espa-logo.png',
+        },
+        items: [
+          {
+            to: '/about',
+            label: 'About',
+            position: 'left',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'documentation',
+            position: 'left',
+            label: 'Documentation',
+          },
+          {
+            to: '/contact',
+            label: 'Contact',
+            position: 'left',
+          },
+          {
+            href: 'https://github.com/Ethical-Secure-Practices-Alliance-ESPA/',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
+      },
+      footer: {
+        style: 'dark',
+        links: [
+          {
+            title: 'Legal',
+            items: [
+              { label: 'Legal', to: '/legal' },
+              { label: 'Privacy', to: '/privacy' },
+              { label: 'Terms', to: '/terms' },
+              { label: 'GDPR', to: '/gdpr' },
+            ],
+          },
+          {
+            title: 'Navigation',
+            items: [
+              { label: 'Governance', to: '/docs/Governance/governance' },
+              { label: 'Public Guides', to: '/docs/Public-Guides/ethics-and-security-basics' },
+              { label: 'Supporter Guides', to: '/docs/Supporter-Guides/advanced-security-practices' },
+            ],
+          },
+          {
+            title: 'E.S.P.A.',
+            items: [
+              {
+                label: 'Ethical & Secure Practices Alliance (E.S.P.A.) is a Swiss Association dedicated to providing guidance, resources, and community contributions for a safer and more ethical online world.',
+                to: '#', // dummy link, required by Docusaurus
+              },
+            ],
+          },
+        ],
+        copyright: `Copyright © ${new Date().getFullYear()} ESPA. Built with Docusaurus.`,
+      },
+      prism: {
+        theme: prismThemes.github,
+        darkTheme: prismThemes.dracula,
+      },
+    }),
+};
+
+export default config;

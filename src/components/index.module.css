@@ -1,0 +1,79 @@
+/* index.module.css */
+
+/* Hero Section */
+.heroSection {
+  background-color: #f8f8f8; /* light neutral background */
+  color: #222; /* dark text for readability */
+  padding: 5rem 0;
+}
+
+/* Section Headings */
+h2 {
+  color: #222;
+  font-weight: 600;
+}
+
+/* Card Styling */
+.card {
+  border: 1px solid #ddd;
+  background-color: #fff; /* white card background */
+  color: #222; /* dark text */
+  border-radius: 0.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
+}
+
+/* Card Titles */
+.card-title {
+  color: #111;
+  font-weight: 600;
+}
+
+/* Card Text */
+.card-text {
+  color: #333;
+  font-size: 0.95rem;
+}
+
+/* Buttons */
+.btn-light {
+  background-color: #444 !important; /* dark gray instead of blue */
+  color: #fff !important;
+  border: none;
+}
+
+.btn-light:hover {
+  background-color: #555 !important;
+  color: #fff !important;
+}
+
+/* CTA Section */
+.text-center.py-5 {
+  background-color: #333 !important;
+  color: #fff !important;
+}
+
+/* Links */
+a {
+  color: #444; /* neutral dark */
+  text-decoration: none;
+}
+
+a:hover {
+  color: #555;
+  text-decoration: underline;
+}
+
+/* General Section Backgrounds */
+.bg-light {
+  background-color: #f8f8f8 !important;
+}
+
+/* Remove any bootstrap primary blue accents */
+.text-primary {
+  color: #222 !important;
+}
