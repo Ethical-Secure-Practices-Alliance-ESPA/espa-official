@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/supporters",
+  "source": "@site/src/pages/supporters.mdx",
+  "title": "Support ESPA",
+  "description": "Support the Ethical & Secure Practices Alliance and help keep core guidance free and independent.",
+  "frontMatter": {
+    "title": "Support ESPA",
+    "description": "Support the Ethical & Secure Practices Alliance and help keep core guidance free and independent."
+  },
+  "unlisted": false
+}

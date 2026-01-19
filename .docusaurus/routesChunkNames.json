@@ -1,107 +1,157 @@
 {
-  "/about-8b4": {
-    "__comp": "1f391b9e",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     },
-    "content": "c9f32de9"
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
+  },
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
+  },
+  "/about-8b4": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---abouta-74-d48"
+    },
+    "content": "content---aboutc-9-f-e93"
   },
   "/contact-b83": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---abouta-74-d48"
     },
-    "content": "bb9046c3"
+    "content": "content---contactbb-9-b35"
   },
   "/gdpr-962": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---abouta-74-d48"
     },
-    "content": "b41172d8"
+    "content": "content---gdprb-41-ac0"
   },
   "/legal-108": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---abouta-74-d48"
     },
-    "content": "6b9b2a60"
+    "content": "content---legal-6-b-9-149"
   },
   "/markdown-page-3d7": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---abouta-74-d48"
     },
-    "content": "393be207"
+    "content": "content---markdown-page-393-028"
   },
   "/privacy-21b": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---abouta-74-d48"
     },
-    "content": "18da0a77"
+    "content": "content---privacy-18-d-815"
+  },
+  "/supporters-872": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---abouta-74-d48"
+    },
+    "content": "content---supportersf-53-d73"
   },
   "/terms-3b9": {
-    "__comp": "1f391b9e",
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---abouta-74-d48"
     },
-    "content": "649c8d11"
+    "content": "content---terms-649-ba0"
   },
   "/docs-45d": {
-    "__comp": "5e95c892",
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
     "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---docsaba-d7c"
     }
   },
   "/docs-a65": {
-    "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
   },
   "/docs-658": {
-    "__comp": "a94703ab"
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
   "/docs/Governance/governance-dba": {
-    "__comp": "17896441",
-    "content": "1bc0f8df"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-governance-governance-1-bc-5ab"
   },
   "/docs/Governance/who-we-serve-c9a": {
-    "__comp": "17896441",
-    "content": "86f355c0"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-governance-who-we-serve-86-f-529"
   },
   "/docs/Public-Guides/account-management-c4f": {
-    "__comp": "17896441",
-    "content": "fd4d0c23"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-public-guides-account-managementfd-4-383"
   },
   "/docs/Public-Guides/ethical-open-source-9fb": {
-    "__comp": "17896441",
-    "content": "1a1ecf91"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-public-guides-ethical-open-source-1-a-1-cf6"
   },
   "/docs/Public-Guides/ethics-and-security-basics-d06": {
-    "__comp": "17896441",
-    "content": "413723bc"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-public-guides-ethics-and-security-basics-413-144"
   },
   "/docs/Public-Guides/network-security-cb7": {
-    "__comp": "17896441",
-    "content": "71ee6ba6"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-public-guides-network-security-71-e-745"
   },
   "/docs/Public-Guides/privacy-b5c": {
-    "__comp": "17896441",
-    "content": "cd5fd6d5"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-public-guides-privacycd-5-8a1"
   },
   "/docs/Public-Guides/secure-storage-288": {
-    "__comp": "17896441",
-    "content": "3e68fed4"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-public-guides-secure-storage-3-e-6-de4"
   },
   "/docs/Supporter-Guides/advanced-security-practices-c65": {
-    "__comp": "17896441",
-    "content": "42020a53"
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-supporter-guides-advanced-security-practices-420-19e"
   },
   "/-2e1": {
-    "__comp": "c4f5d8e4",
+    "__comp": "__comp---site-src-pages-index-jsc-4-f-f99",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---abouta-74-d48"
     },
-    "config": "5e9f5e1a"
+    "config": "config---5-e-9-4f3"
   }
 }

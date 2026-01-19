@@ -60,9 +60,14 @@ export default {
           "label": "Documentation"
         },
         {
+          "to": "/supporters",
+          "label": "Support ESPA",
+          "position": "right"
+        },
+        {
           "to": "/contact",
           "label": "Contact",
-          "position": "left"
+          "position": "right"
         },
         {
           "href": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/",
@@ -110,15 +115,6 @@ export default {
             {
               "label": "Supporter Guides",
               "to": "/docs/Supporter-Guides/advanced-security-practices"
-            }
-          ]
-        },
-        {
-          "title": "E.S.P.A.",
-          "items": [
-            {
-              "label": "Ethical & Secure Practices Alliance (E.S.P.A.) is a Swiss Association dedicated to providing guidance, resources, and community contributions for a safer and more ethical online world.",
-              "to": "#"
             }
           ]
         }
