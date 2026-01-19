@@ -97,15 +97,6 @@ const config = {
               { label: 'Supporter Guides', to: '/docs/Supporter-Guides/advanced-security-practices' },
             ],
           },
-          {
-            title: 'E.S.P.A.',
-            items: [
-              {
-                label: 'Ethical & Secure Practices Alliance (E.S.P.A.) is a Swiss Association dedicated to providing guidance, resources, and community contributions for a safer and more ethical online world.',
-                to: '#', // dummy link, required by Docusaurus
-              },
-            ],
-          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} ESPA. Built with Docusaurus.`,
       },
