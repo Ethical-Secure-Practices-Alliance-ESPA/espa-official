@@ -7,11 +7,11 @@ const config = {
   tagline: 'Ethical & Secure Practices Alliance',
   favicon: 'img/favicon.ico',
 
-  url: 'https://your-espa-site.example.com', // replace with your production URL
+  url: 'https://myespa.ch', // replace with your production URL
   baseUrl: '/',
 
   organizationName: 'Ethical-Secure-Practices-Alliance-ESPA',
-  projectName: 'espa-docs',
+  projectName: 'espa',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
