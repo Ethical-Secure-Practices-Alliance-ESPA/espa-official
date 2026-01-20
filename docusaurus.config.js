@@ -102,7 +102,6 @@ const config = {
               { label: 'Supporter Guides', to: '/docs/Supporter-Guides/advanced-security-practices' },
             ],
           },
-          
         ],
         copyright: `Copyright © ${new Date().getFullYear()} ESPA. Built with Docusaurus.`,
       },
