@@ -27,13 +27,6 @@
     },
     "content": "6b9b2a60"
   },
-  "/markdown-page/-54d": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "393be207"
-  },
   "/privacy/-70b": {
     "__comp": "1f391b9e",
     "__context": {
@@ -60,6 +53,13 @@
       "plugin": "a7456010"
     },
     "content": "649c8d11"
+  },
+  "/transparency/-b81": {
+    "__comp": "1f391b9e",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "content": "36807334"
   },
   "/docs/-5e9": {
     "__comp": "5e95c892",

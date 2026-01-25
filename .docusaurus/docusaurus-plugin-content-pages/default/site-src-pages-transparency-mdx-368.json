@@ -1,0 +1,12 @@
+{
+  "type": "mdx",
+  "permalink": "/transparency",
+  "source": "@site/src/pages/transparency.mdx",
+  "title": "Transparency Policy",
+  "description": "ESPA’s commitment to transparency, privacy, and accountability as a Swiss association",
+  "frontMatter": {
+    "title": "Transparency Policy",
+    "description": "ESPA’s commitment to transparency, privacy, and accountability as a Swiss association"
+  },
+  "unlisted": false
+}

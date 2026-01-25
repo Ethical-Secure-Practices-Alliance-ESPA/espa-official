@@ -7,16 +7,21 @@ const config = {
   tagline: 'Ethical & Secure Practices Alliance',
   favicon: 'img/favicon-new.ico',
 
-  url: 'https://myespa.ch', 
+  url: 'https://myespa.ch',
   baseUrl: '/',
   trailingSlash: true,
 
   organizationName: 'Ethical-Secure-Practices-Alliance-ESPA',
   projectName: 'espa',
 
-
   onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+
+  markdown: {
+    hooks: {
+      onBrokenMarkdownLinks: 'warn',
+      // onBrokenAnchors: 'warn',
+    },
+  },
 
   i18n: {
     defaultLocale: 'en',
@@ -42,67 +47,49 @@ const config = {
   ],
 
   themeConfig:
-  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-  ({
-    image: 'img/docusaurus-social-card.jpg',
+    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+    ({
+      image: 'img/docusaurus-social-card.jpg',
 
-    colorMode: {
-      defaultMode: 'light',
-      disableSwitch: true,
-      respectPrefersColorScheme: false,
-    },
-
-   
-    algolia: {
-      appId: 'MKKED3VRQF',
-      apiKey: 'dac2530faeff93223a081924af9d41dc',
-      indexName: 'Documentation',
-
-      contextualSearch: true,
-      searchPagePath: 'search',
-    },
-
-    navbar: {
-      logo: {
-        alt: 'ESPA Logo',
-        src: 'img/espa-logo.png',
+      colorMode: {
+        defaultMode: 'light',
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
       },
-      items: [
-        {
-          to: '/about',
-          label: 'About',
-          position: 'left',
-        },
-        {
-          type: 'docSidebar',
-          sidebarId: 'documentation',
-          position: 'left',
-          label: 'Documentation',
-        },
 
-        // 🔍 ADD THIS ITEM (anywhere, usually right)
-        {
-          type: 'search',
-          position: 'right',
-        },
+      algolia: {
+        appId: 'MKKED3VRQF',
+        apiKey: 'dac2530faeff93223a081924af9d41dc',
+        indexName: 'Documentation',
 
-        {
-          to: '/supporters',
-          label: 'Support ESPA',
-          position: 'right',
+        contextualSearch: true,
+        searchPagePath: 'search',
+      },
+
+      navbar: {
+        logo: {
+          alt: 'ESPA Logo',
+          src: 'img/espa-logo.png',
         },
-        {
-          to: '/contact',
-          label: 'Contact',
-          position: 'right',
-        },
-        {
-          href: 'https://github.com/Ethical-Secure-Practices-Alliance-ESPA/',
-          label: 'GitHub',
-          position: 'right',
-        },
-      ],
-    },
+        items: [
+          { to: '/about', label: 'About', position: 'left' },
+          { to: '/transparency', label: 'Transparency', position: 'left' },
+          {
+            type: 'docSidebar',
+            sidebarId: 'documentation',
+            position: 'left',
+            label: 'Documentation',
+          },
+          { type: 'search', position: 'right' },
+          { to: '/supporters', label: 'Support ESPA', position: 'right' },
+          { to: '/contact', label: 'Contact', position: 'right' },
+          {
+            href: 'https://github.com/Ethical-Secure-Practices-Alliance-ESPA/',
+            label: 'GitHub',
+            position: 'right',
+          },
+        ],
+      },
 
       footer: {
         style: 'dark',
@@ -121,12 +108,16 @@ const config = {
             items: [
               { label: 'Governance', to: '/docs/Governance/governance' },
               { label: 'Public Guides', to: '/docs/Public-Guides/ethics-and-security-basics' },
-              { label: 'Supporter Guides', to: '/docs/Supporter-Guides/advanced-security-practices' },
+              {
+                label: 'Supporter Guides',
+                to: '/docs/Supporter-Guides/advanced-security-practices',
+              },
             ],
           },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} ESPA. Built with Docusaurus.`,
       },
+
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,

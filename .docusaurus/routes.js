@@ -23,11 +23,6 @@ export default [
     exact: true
   },
   {
-    path: '/markdown-page/',
-    component: ComponentCreator('/markdown-page/', '54d'),
-    exact: true
-  },
-  {
     path: '/privacy/',
     component: ComponentCreator('/privacy/', '70b'),
     exact: true
@@ -45,6 +40,11 @@ export default [
   {
     path: '/terms/',
     component: ComponentCreator('/terms/', 'f36'),
+    exact: true
+  },
+  {
+    path: '/transparency/',
+    component: ComponentCreator('/transparency/', 'b81'),
     exact: true
   },
   {

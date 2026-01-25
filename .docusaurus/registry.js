@@ -6,7 +6,7 @@ export default {
   "1a4e3797": [() => import(/* webpackChunkName: "1a4e3797" */ "@theme/SearchPage"), "@theme/SearchPage", require.resolveWeak("@theme/SearchPage")],
   "1bc0f8df": [() => import(/* webpackChunkName: "1bc0f8df" */ "@site/docs/01-Governance/governance.md"), "@site/docs/01-Governance/governance.md", require.resolveWeak("@site/docs/01-Governance/governance.md")],
   "1f391b9e": [() => import(/* webpackChunkName: "1f391b9e" */ "@theme/MDXPage"), "@theme/MDXPage", require.resolveWeak("@theme/MDXPage")],
-  "393be207": [() => import(/* webpackChunkName: "393be207" */ "@site/src/pages/markdown-page.md"), "@site/src/pages/markdown-page.md", require.resolveWeak("@site/src/pages/markdown-page.md")],
+  "36807334": [() => import(/* webpackChunkName: "36807334" */ "@site/src/pages/transparency.mdx"), "@site/src/pages/transparency.mdx", require.resolveWeak("@site/src/pages/transparency.mdx")],
   "3e68fed4": [() => import(/* webpackChunkName: "3e68fed4" */ "@site/docs/02-Public-Guides/secure-storage.md"), "@site/docs/02-Public-Guides/secure-storage.md", require.resolveWeak("@site/docs/02-Public-Guides/secure-storage.md")],
   "413723bc": [() => import(/* webpackChunkName: "413723bc" */ "@site/docs/02-Public-Guides/ethics-and-security-basics.md"), "@site/docs/02-Public-Guides/ethics-and-security-basics.md", require.resolveWeak("@site/docs/02-Public-Guides/ethics-and-security-basics.md")],
   "42020a53": [() => import(/* webpackChunkName: "42020a53" */ "@site/docs/03-Supporter-Guides/advanced-security-practices.mdx"), "@site/docs/03-Supporter-Guides/advanced-security-practices.mdx", require.resolveWeak("@site/docs/03-Supporter-Guides/advanced-security-practices.mdx")],
