@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
                        xmlns:moz="http://www.mozilla.org/2006/browser/search/">
-  <ShortName>ESPA Docs</ShortName>
-  <Description>Search ESPA Docs</Description>
+  <ShortName>ESPA - Ethical &amp; Secure Practices Alliance</ShortName>
+  <Description>Search ESPA - Ethical &amp; Secure Practices Alliance</Description>
   <InputEncoding>UTF-8</InputEncoding>
   <Image width="16" height="16" type="image/x-icon">https://myespa.ch/img/favicon-new.ico</Image>
   <Url type="text/html" method="get" template="https://myespa.ch/search?q={searchTerms}"/>
