@@ -3,7 +3,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'ESPA Docs',
+  title: 'ESPA - Ethical & Secure Practices Alliance',
   tagline: 'Ethical & Secure Practices Alliance',
   favicon: 'img/favicon-new.ico',
 
