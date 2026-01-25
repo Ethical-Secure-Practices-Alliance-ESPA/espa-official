@@ -1,11 +1,11 @@
 {
-  "id": "Public-Guides/privacy",
-  "title": "Privacy",
+  "id": "Public-Guides/privacy-fundamentals",
+  "title": "Privacy Fundamentals",
   "description": "What is Privacy?",
   "source": "@site/docs/02-Public-Guides/privacy-fundamentals.md",
   "sourceDirName": "02-Public-Guides",
-  "slug": "/Public-Guides/privacy",
-  "permalink": "/docs/Public-Guides/privacy",
+  "slug": "/Public-Guides/privacy-fundamentals",
+  "permalink": "/docs/Public-Guides/privacy-fundamentals",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/02-Public-Guides/privacy-fundamentals.md",
@@ -13,9 +13,9 @@
   "version": "current",
   "sidebarPosition": 5,
   "frontMatter": {
-    "id": "privacy",
-    "title": "Privacy",
-    "sidebar_label": "Privacy",
+    "id": "privacy-fundamentals",
+    "title": "Privacy Fundamentals",
+    "sidebar_label": "Privacy Fundamentals",
     "sidebar_position": 5
   },
   "sidebar": "documentation",

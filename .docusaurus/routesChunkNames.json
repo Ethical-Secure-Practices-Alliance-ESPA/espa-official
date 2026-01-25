@@ -1,112 +1,112 @@
 {
-  "/about-8b4": {
+  "/about/-4fb": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "c9f32de9"
   },
-  "/contact-b83": {
+  "/contact/-66c": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "bb9046c3"
   },
-  "/gdpr-962": {
+  "/gdpr/-656": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "b41172d8"
   },
-  "/legal-108": {
+  "/legal/-533": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "6b9b2a60"
   },
-  "/markdown-page-3d7": {
+  "/markdown-page/-54d": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "393be207"
   },
-  "/privacy-21b": {
+  "/privacy/-70b": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "18da0a77"
   },
-  "/search-5de": {
+  "/search/-21e": {
     "__comp": "1a4e3797",
     "__context": {
       "plugin": "c141421f"
     }
   },
-  "/supporters-872": {
+  "/supporters/-d81": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "f530d58c"
   },
-  "/terms-3b9": {
+  "/terms/-f36": {
     "__comp": "1f391b9e",
     "__context": {
       "plugin": "a7456010"
     },
     "content": "649c8d11"
   },
-  "/docs-45d": {
+  "/docs/-5e9": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-a65": {
+  "/docs/-c9c": {
     "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
+    "__props": "11b43341"
   },
-  "/docs-658": {
+  "/docs/-e6d": {
     "__comp": "a94703ab"
   },
-  "/docs/Governance/governance-dba": {
+  "/docs/Governance/governance/-d14": {
     "__comp": "17896441",
     "content": "1bc0f8df"
   },
-  "/docs/Governance/who-we-serve-c9a": {
+  "/docs/Governance/who-we-serve/-aee": {
     "__comp": "17896441",
     "content": "86f355c0"
   },
-  "/docs/Public-Guides/account-management-c4f": {
+  "/docs/Public-Guides/account-management/-d4c": {
     "__comp": "17896441",
     "content": "fd4d0c23"
   },
-  "/docs/Public-Guides/ethical-open-source-9fb": {
+  "/docs/Public-Guides/ethical-open-source/-751": {
     "__comp": "17896441",
     "content": "1a1ecf91"
   },
-  "/docs/Public-Guides/ethics-and-security-basics-d06": {
+  "/docs/Public-Guides/ethics-and-security-basics/-f9e": {
     "__comp": "17896441",
     "content": "413723bc"
   },
-  "/docs/Public-Guides/network-security-cb7": {
+  "/docs/Public-Guides/network-security/-2d6": {
     "__comp": "17896441",
     "content": "71ee6ba6"
   },
-  "/docs/Public-Guides/privacy-b5c": {
+  "/docs/Public-Guides/privacy-fundamentals/-b59": {
     "__comp": "17896441",
     "content": "cd5fd6d5"
   },
-  "/docs/Public-Guides/secure-storage-288": {
+  "/docs/Public-Guides/secure-storage/-bb8": {
     "__comp": "17896441",
     "content": "3e68fed4"
   },
-  "/docs/Supporter-Guides/advanced-security-practices-c65": {
+  "/docs/Supporter-Guides/advanced-security-practices/-b75": {
     "__comp": "17896441",
     "content": "42020a53"
   },

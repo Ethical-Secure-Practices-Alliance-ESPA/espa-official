@@ -9,6 +9,7 @@ export default {
   "favicon": "img/favicon.ico",
   "url": "https://myespa.ch",
   "baseUrl": "/",
+  "trailingSlash": true,
   "organizationName": "Ethical-Secure-Practices-Alliance-ESPA",
   "projectName": "espa",
   "onBrokenLinks": "throw",

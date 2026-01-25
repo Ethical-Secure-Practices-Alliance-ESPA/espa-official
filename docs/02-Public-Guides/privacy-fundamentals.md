@@ -1,7 +1,7 @@
 ---
-id: privacy
-title: Privacy
-sidebar_label: Privacy
+id: privacy-fundamentals
+title: Privacy Fundamentals
+sidebar_label: Privacy Fundamentals
 sidebar_position: 5
 ---
 

@@ -1,5 +1,5 @@
 export default {
-  "0058b4c6": [() => import(/* webpackChunkName: "0058b4c6" */ "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json"), "@generated/docusaurus-plugin-content-docs/default/p/docs-175.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/docs-175.json")],
+  "11b43341": [() => import(/* webpackChunkName: "11b43341" */ "@generated/docusaurus-plugin-content-docs/default/p/docs-7fc.json"), "@generated/docusaurus-plugin-content-docs/default/p/docs-7fc.json", require.resolveWeak("@generated/docusaurus-plugin-content-docs/default/p/docs-7fc.json")],
   "17896441": [() => import(/* webpackChunkName: "17896441" */ "@theme/DocItem"), "@theme/DocItem", require.resolveWeak("@theme/DocItem")],
   "18da0a77": [() => import(/* webpackChunkName: "18da0a77" */ "@site/src/pages/privacy.mdx"), "@site/src/pages/privacy.mdx", require.resolveWeak("@site/src/pages/privacy.mdx")],
   "1a1ecf91": [() => import(/* webpackChunkName: "1a1ecf91" */ "@site/docs/02-Public-Guides/ethical-open-source.md"), "@site/docs/02-Public-Guides/ethical-open-source.md", require.resolveWeak("@site/docs/02-Public-Guides/ethical-open-source.md")],
