@@ -13,6 +13,7 @@ const config = {
   organizationName: 'Ethical-Secure-Practices-Alliance-ESPA',
   projectName: 'espa',
 
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -40,48 +41,68 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
-    ({
-      image: 'img/docusaurus-social-card.jpg',
-      colorMode: {
-        defaultMode: 'light',
-        disableSwitch: true,
-        respectPrefersColorScheme: false,
+  /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  ({
+    image: 'img/docusaurus-social-card.jpg',
+
+    colorMode: {
+      defaultMode: 'light',
+      disableSwitch: true,
+      respectPrefersColorScheme: false,
+    },
+
+    // 🔍 ADD THIS BLOCK
+    algolia: {
+      appId: 'MKKED3VRQF',
+      apiKey: 'dac2530faeff93223a081924af9d41dc',
+      indexName: 'Documentation',
+
+      contextualSearch: true,
+      searchPagePath: 'search',
+    },
+
+    navbar: {
+      logo: {
+        alt: 'ESPA Logo',
+        src: 'img/espa-logo.png',
       },
-      navbar: {
-        logo: {
-          alt: 'ESPA Logo',
-          src: 'img/espa-logo.png',
+      items: [
+        {
+          to: '/about',
+          label: 'About',
+          position: 'left',
         },
-        items: [
-          {
-            to: '/about',
-            label: 'About',
-            position: 'left',
-          },
-          {
-            type: 'docSidebar',
-            sidebarId: 'documentation',
-            position: 'left',
-            label: 'Documentation',
-          },
-          {
-            to: '/supporters',
-            label: 'Support ESPA',
-            position: 'right',
-          },
-          {
-            to: '/contact',
-            label: 'Contact',
-            position: 'right',
-          },
-          {
-            href: 'https://github.com/Ethical-Secure-Practices-Alliance-ESPA/',
-            label: 'GitHub',
-            position: 'right',
-          },
-        ],
-      },
+        {
+          type: 'docSidebar',
+          sidebarId: 'documentation',
+          position: 'left',
+          label: 'Documentation',
+        },
+
+        // 🔍 ADD THIS ITEM (anywhere, usually right)
+        {
+          type: 'search',
+          position: 'right',
+        },
+
+        {
+          to: '/supporters',
+          label: 'Support ESPA',
+          position: 'right',
+        },
+        {
+          to: '/contact',
+          label: 'Contact',
+          position: 'right',
+        },
+        {
+          href: 'https://github.com/Ethical-Secure-Practices-Alliance-ESPA/',
+          label: 'GitHub',
+          position: 'right',
+        },
+      ],
+    },
+
       footer: {
         style: 'dark',
         links: [

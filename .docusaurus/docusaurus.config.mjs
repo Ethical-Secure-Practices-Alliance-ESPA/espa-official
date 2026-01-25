@@ -7,10 +7,10 @@ export default {
   "title": "ESPA Docs",
   "tagline": "Ethical & Secure Practices Alliance",
   "favicon": "img/favicon.ico",
-  "url": "https://your-espa-site.example.com",
+  "url": "https://myespa.ch",
   "baseUrl": "/",
   "organizationName": "Ethical-Secure-Practices-Alliance-ESPA",
-  "projectName": "espa-docs",
+  "projectName": "espa",
   "onBrokenLinks": "throw",
   "i18n": {
     "defaultLocale": "en",
@@ -42,6 +42,14 @@ export default {
       "disableSwitch": true,
       "respectPrefersColorScheme": false
     },
+    "algolia": {
+      "appId": "MKKED3VRQF",
+      "apiKey": "dac2530faeff93223a081924af9d41dc",
+      "indexName": "Documentation",
+      "contextualSearch": true,
+      "searchPagePath": "search",
+      "searchParameters": {}
+    },
     "navbar": {
       "logo": {
         "alt": "ESPA Logo",
@@ -58,6 +66,10 @@ export default {
           "sidebarId": "documentation",
           "position": "left",
           "label": "Documentation"
+        },
+        {
+          "type": "search",
+          "position": "right"
         },
         {
           "to": "/supporters",

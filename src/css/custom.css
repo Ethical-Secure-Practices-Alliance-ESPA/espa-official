@@ -27,6 +27,30 @@ a {
   text-decoration: underline;
 }
 
+/* === Algolia DocSearch Theme Overrides === */
+
+/* Light mode */
+:root {
+  --docsearch-primary-color: #0f766e;        /* Accent / highlight */
+  --docsearch-text-color: #0f172a;           /* Main text */
+  --docsearch-secondary-text-color: #475569; /* Subtle text */
+  --docsearch-link-color: #0f766e;            /* Result links */
+  --docsearch-highlight-color: #0f766e;       /* Match highlight */
+  --docsearch-muted-color: #64748b;            /* Metadata */
+  --docsearch-background-color: #ffffff;
+}
+
+/* Dark mode (if you ever enable it) */
+html[data-theme='dark'] {
+  --docsearch-primary-color: #22d3ee;
+  --docsearch-text-color: #e5e7eb;
+  --docsearch-secondary-text-color: #9ca3af;
+  --docsearch-link-color: #22d3ee;
+  --docsearch-highlight-color: #22d3ee;
+  --docsearch-background-color: #020617;
+}
+
+
 /* ================================
    Docs Content Improvements
 ================================ */
