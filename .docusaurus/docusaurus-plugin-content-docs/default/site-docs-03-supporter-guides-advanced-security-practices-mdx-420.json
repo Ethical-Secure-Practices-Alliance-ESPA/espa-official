@@ -20,5 +20,9 @@
   "previous": {
     "title": "Secure Storage",
     "permalink": "/docs/Public-Guides/secure-storage"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/docs/legal/legal-overview"
   }
 }

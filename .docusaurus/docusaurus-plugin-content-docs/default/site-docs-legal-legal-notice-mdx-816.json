@@ -1,0 +1,24 @@
+{
+  "id": "legal/legal-notice",
+  "title": "Legal Notice",
+  "description": "1. Legal Status",
+  "source": "@site/docs/legal/legal-notice.mdx",
+  "sourceDirName": "legal",
+  "slug": "/legal-notice",
+  "permalink": "/docs/legal-notice",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/legal/legal-notice.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Legal Notice",
+    "slug": "/legal-notice",
+    "sidebar_label": "Legal Notice"
+  },
+  "sidebar": "legal",
+  "previous": {
+    "title": "GDPR",
+    "permalink": "/docs/gdpr"
+  }
+}

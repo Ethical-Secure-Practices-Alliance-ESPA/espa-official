@@ -19,7 +19,7 @@ const config = {
   markdown: {
     hooks: {
       onBrokenMarkdownLinks: 'warn',
-      // onBrokenAnchors: 'warn',
+      // onBrokenAnchors: 'warn', // optional
     },
   },
 
@@ -61,7 +61,6 @@ const config = {
         appId: 'MKKED3VRQF',
         apiKey: 'dac2530faeff93223a081924af9d41dc',
         indexName: 'Documentation',
-
         contextualSearch: true,
         searchPagePath: 'search',
       },
@@ -91,37 +90,18 @@ const config = {
         ],
       },
 
-      footer: {
-        style: 'dark',
-        links: [
-          {
-            title: 'Legal',
-            items: [
-              { label: 'Legal', to: '/legal' },
-              { label: 'Privacy', to: '/privacy' },
-              { label: 'Terms', to: '/terms' },
-              { label: 'GDPR', to: '/gdpr' },
-            ],
-          },
-          {
-            title: 'Navigation',
-            items: [
-              { label: 'Governance', to: '/docs/Governance/governance' },
-              { label: 'Public Guides', to: '/docs/Public-Guides/ethics-and-security-basics' },
-              {
-                label: 'Supporter Guides',
-                to: '/docs/Supporter-Guides/advanced-security-practices',
-              },
-            ],
-          },
-        ],
-        copyright: `Copyright © ${new Date().getFullYear()} ESPA. Built with Docusaurus.`,
-      },
+footer: {
+  style: 'dark',
 
-      prism: {
-        theme: prismThemes.github,
-        darkTheme: prismThemes.dracula,
-      },
+  copyright: `Copyright © ${new Date().getFullYear()} ESPA. Built with Docusaurus.
+Documentation content is licensed under CC BY-NC-SA 4.0 unless otherwise stated.`,
+},
+
+prism: {
+  theme: prismThemes.github,
+  darkTheme: prismThemes.dracula,
+},
+
     }),
 };
 

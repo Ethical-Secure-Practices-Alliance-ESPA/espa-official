@@ -1,0 +1,28 @@
+{
+  "id": "legal/terms",
+  "title": "Terms of Service",
+  "description": "Terms of Service",
+  "source": "@site/docs/legal/terms.mdx",
+  "sourceDirName": "legal",
+  "slug": "/terms",
+  "permalink": "/docs/terms",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/legal/terms.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Terms of Service",
+    "slug": "/terms",
+    "sidebar_label": "Terms"
+  },
+  "sidebar": "legal",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/docs/legal/legal-overview"
+  },
+  "next": {
+    "title": "Privacy",
+    "permalink": "/docs/privacy"
+  }
+}

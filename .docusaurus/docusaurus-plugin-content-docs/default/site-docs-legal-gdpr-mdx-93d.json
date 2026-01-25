@@ -1,0 +1,28 @@
+{
+  "id": "legal/gdpr",
+  "title": "GDPR Information",
+  "description": "GDPR Information",
+  "source": "@site/docs/legal/gdpr.mdx",
+  "sourceDirName": "legal",
+  "slug": "/gdpr",
+  "permalink": "/docs/gdpr",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/legal/gdpr.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "GDPR Information",
+    "slug": "/gdpr",
+    "sidebar_label": "GDPR"
+  },
+  "sidebar": "legal",
+  "previous": {
+    "title": "Privacy",
+    "permalink": "/docs/privacy"
+  },
+  "next": {
+    "title": "Legal Notice",
+    "permalink": "/docs/legal-notice"
+  }
+}

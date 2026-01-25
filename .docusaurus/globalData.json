@@ -21,6 +21,31 @@
               "sidebar": "documentation"
             },
             {
+              "id": "legal/gdpr",
+              "path": "/docs/gdpr",
+              "sidebar": "legal"
+            },
+            {
+              "id": "legal/legal-notice",
+              "path": "/docs/legal-notice",
+              "sidebar": "legal"
+            },
+            {
+              "id": "legal/legal-overview",
+              "path": "/docs/docs/legal/legal-overview",
+              "sidebar": "legal"
+            },
+            {
+              "id": "legal/privacy",
+              "path": "/docs/privacy",
+              "sidebar": "legal"
+            },
+            {
+              "id": "legal/terms",
+              "path": "/docs/terms",
+              "sidebar": "legal"
+            },
+            {
               "id": "Public-Guides/account-management",
               "path": "/docs/Public-Guides/account-management",
               "sidebar": "documentation"
@@ -62,6 +87,12 @@
               "link": {
                 "path": "/docs/Governance/governance",
                 "label": "Governance/governance"
+              }
+            },
+            "legal": {
+              "link": {
+                "path": "/docs/docs/legal/legal-overview",
+                "label": "legal/legal-overview"
               }
             }
           }

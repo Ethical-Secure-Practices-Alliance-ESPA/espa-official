@@ -13,27 +13,6 @@
     },
     "content": "bb9046c3"
   },
-  "/gdpr/-656": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "b41172d8"
-  },
-  "/legal/-533": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "6b9b2a60"
-  },
-  "/privacy/-70b": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "18da0a77"
-  },
   "/search/-21e": {
     "__comp": "1a4e3797",
     "__context": {
@@ -47,13 +26,6 @@
     },
     "content": "f530d58c"
   },
-  "/terms/-f36": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "649c8d11"
-  },
   "/transparency/-b81": {
     "__comp": "1f391b9e",
     "__context": {
@@ -61,18 +33,26 @@
     },
     "content": "36807334"
   },
-  "/docs/-5e9": {
+  "/docs/-5c3": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs/-c9c": {
+  "/docs/-bc7": {
     "__comp": "a7bd4aaa",
     "__props": "11b43341"
   },
-  "/docs/-e6d": {
+  "/docs/-458": {
     "__comp": "a94703ab"
+  },
+  "/docs/docs/legal/legal-overview/-9ed": {
+    "__comp": "17896441",
+    "content": "42a3fc6e"
+  },
+  "/docs/gdpr/-45b": {
+    "__comp": "17896441",
+    "content": "93d91dae"
   },
   "/docs/Governance/governance/-d14": {
     "__comp": "17896441",
@@ -81,6 +61,14 @@
   "/docs/Governance/who-we-serve/-aee": {
     "__comp": "17896441",
     "content": "86f355c0"
+  },
+  "/docs/legal-notice/-e81": {
+    "__comp": "17896441",
+    "content": "816ca38e"
+  },
+  "/docs/privacy/-20f": {
+    "__comp": "17896441",
+    "content": "6bdba9c6"
   },
   "/docs/Public-Guides/account-management/-d4c": {
     "__comp": "17896441",
@@ -109,6 +97,10 @@
   "/docs/Supporter-Guides/advanced-security-practices/-b75": {
     "__comp": "17896441",
     "content": "42020a53"
+  },
+  "/docs/terms/-2c4": {
+    "__comp": "17896441",
+    "content": "f9b7b83c"
   },
   "/-2e1": {
     "__comp": "c4f5d8e4",

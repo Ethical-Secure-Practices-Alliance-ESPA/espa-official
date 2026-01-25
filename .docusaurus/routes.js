@@ -13,21 +13,6 @@ export default [
     exact: true
   },
   {
-    path: '/gdpr/',
-    component: ComponentCreator('/gdpr/', '656'),
-    exact: true
-  },
-  {
-    path: '/legal/',
-    component: ComponentCreator('/legal/', '533'),
-    exact: true
-  },
-  {
-    path: '/privacy/',
-    component: ComponentCreator('/privacy/', '70b'),
-    exact: true
-  },
-  {
     path: '/search/',
     component: ComponentCreator('/search/', '21e'),
     exact: true
@@ -38,27 +23,34 @@ export default [
     exact: true
   },
   {
-    path: '/terms/',
-    component: ComponentCreator('/terms/', 'f36'),
-    exact: true
-  },
-  {
     path: '/transparency/',
     component: ComponentCreator('/transparency/', 'b81'),
     exact: true
   },
   {
     path: '/docs/',
-    component: ComponentCreator('/docs/', '5e9'),
+    component: ComponentCreator('/docs/', '5c3'),
     routes: [
       {
         path: '/docs/',
-        component: ComponentCreator('/docs/', 'c9c'),
+        component: ComponentCreator('/docs/', 'bc7'),
         routes: [
           {
             path: '/docs/',
-            component: ComponentCreator('/docs/', 'e6d'),
+            component: ComponentCreator('/docs/', '458'),
             routes: [
+              {
+                path: '/docs/docs/legal/legal-overview/',
+                component: ComponentCreator('/docs/docs/legal/legal-overview/', '9ed'),
+                exact: true,
+                sidebar: "legal"
+              },
+              {
+                path: '/docs/gdpr/',
+                component: ComponentCreator('/docs/gdpr/', '45b'),
+                exact: true,
+                sidebar: "legal"
+              },
               {
                 path: '/docs/Governance/governance/',
                 component: ComponentCreator('/docs/Governance/governance/', 'd14'),
@@ -70,6 +62,18 @@ export default [
                 component: ComponentCreator('/docs/Governance/who-we-serve/', 'aee'),
                 exact: true,
                 sidebar: "documentation"
+              },
+              {
+                path: '/docs/legal-notice/',
+                component: ComponentCreator('/docs/legal-notice/', 'e81'),
+                exact: true,
+                sidebar: "legal"
+              },
+              {
+                path: '/docs/privacy/',
+                component: ComponentCreator('/docs/privacy/', '20f'),
+                exact: true,
+                sidebar: "legal"
               },
               {
                 path: '/docs/Public-Guides/account-management/',
@@ -112,6 +116,12 @@ export default [
                 component: ComponentCreator('/docs/Supporter-Guides/advanced-security-practices/', 'b75'),
                 exact: true,
                 sidebar: "documentation"
+              },
+              {
+                path: '/docs/terms/',
+                component: ComponentCreator('/docs/terms/', '2c4'),
+                exact: true,
+                sidebar: "legal"
               }
             ]
           }

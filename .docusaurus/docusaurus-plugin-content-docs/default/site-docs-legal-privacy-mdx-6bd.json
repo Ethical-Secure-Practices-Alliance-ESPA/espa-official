@@ -1,0 +1,28 @@
+{
+  "id": "legal/privacy",
+  "title": "Privacy Policy",
+  "description": "Privacy Policy",
+  "source": "@site/docs/legal/privacy.mdx",
+  "sourceDirName": "legal",
+  "slug": "/privacy",
+  "permalink": "/docs/privacy",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/Ethical-Secure-Practices-Alliance-ESPA/espa-docs/tree/main/docs/docs/legal/privacy.mdx",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Privacy Policy",
+    "slug": "/privacy",
+    "sidebar_label": "Privacy"
+  },
+  "sidebar": "legal",
+  "previous": {
+    "title": "Terms",
+    "permalink": "/docs/terms"
+  },
+  "next": {
+    "title": "GDPR",
+    "permalink": "/docs/gdpr"
+  }
+}

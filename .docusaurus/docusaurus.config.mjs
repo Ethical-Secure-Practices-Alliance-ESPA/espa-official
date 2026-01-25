@@ -4,7 +4,7 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "ESPA Docs",
+  "title": "ESPA - Ethical & Secure Practices Alliance",
   "tagline": "Ethical & Secure Practices Alliance",
   "favicon": "img/favicon-new.ico",
   "url": "https://myespa.ch",
@@ -114,47 +114,8 @@ export default {
     },
     "footer": {
       "style": "dark",
-      "links": [
-        {
-          "title": "Legal",
-          "items": [
-            {
-              "label": "Legal",
-              "to": "/legal"
-            },
-            {
-              "label": "Privacy",
-              "to": "/privacy"
-            },
-            {
-              "label": "Terms",
-              "to": "/terms"
-            },
-            {
-              "label": "GDPR",
-              "to": "/gdpr"
-            }
-          ]
-        },
-        {
-          "title": "Navigation",
-          "items": [
-            {
-              "label": "Governance",
-              "to": "/docs/Governance/governance"
-            },
-            {
-              "label": "Public Guides",
-              "to": "/docs/Public-Guides/ethics-and-security-basics"
-            },
-            {
-              "label": "Supporter Guides",
-              "to": "/docs/Supporter-Guides/advanced-security-practices"
-            }
-          ]
-        }
-      ],
-      "copyright": "Copyright © 2026 ESPA. Built with Docusaurus."
+      "copyright": "Copyright © 2026 ESPA. Built with Docusaurus.\nDocumentation content is licensed under CC BY-NC-SA 4.0 unless otherwise stated.",
+      "links": []
     },
     "prism": {
       "theme": {
