@@ -5,7 +5,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 const config = {
   title: 'ESPA Docs',
   tagline: 'Ethical & Secure Practices Alliance',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon-new.ico',
 
   url: 'https://myespa.ch', 
   baseUrl: '/',
@@ -52,7 +52,7 @@ const config = {
       respectPrefersColorScheme: false,
     },
 
-    // 🔍 ADD THIS BLOCK
+   
     algolia: {
       appId: 'MKKED3VRQF',
       apiKey: 'dac2530faeff93223a081924af9d41dc',

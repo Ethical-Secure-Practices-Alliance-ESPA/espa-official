@@ -4,7 +4,7 @@
   <ShortName>ESPA Docs</ShortName>
   <Description>Search ESPA Docs</Description>
   <InputEncoding>UTF-8</InputEncoding>
-  <Image width="16" height="16" type="image/x-icon">https://myespa.ch/img/favicon.ico</Image>
+  <Image width="16" height="16" type="image/x-icon">https://myespa.ch/img/favicon-new.ico</Image>
   <Url type="text/html" method="get" template="https://myespa.ch/search?q={searchTerms}"/>
   <Url type="application/opensearchdescription+xml" rel="self" template="https://myespa.ch/opensearch.xml" />
   <moz:SearchForm>https://myespa.ch/</moz:SearchForm>

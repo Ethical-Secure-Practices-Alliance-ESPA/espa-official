@@ -6,7 +6,7 @@
 export default {
   "title": "ESPA Docs",
   "tagline": "Ethical & Secure Practices Alliance",
-  "favicon": "img/favicon.ico",
+  "favicon": "img/favicon-new.ico",
   "url": "https://myespa.ch",
   "baseUrl": "/",
   "trailingSlash": true,
