@@ -10,6 +10,7 @@ export default {
   "413723bc": [() => import(/* webpackChunkName: "413723bc" */ "@site/docs/02-Public-Guides/ethics-and-security-basics.md"), "@site/docs/02-Public-Guides/ethics-and-security-basics.md", require.resolveWeak("@site/docs/02-Public-Guides/ethics-and-security-basics.md")],
   "42020a53": [() => import(/* webpackChunkName: "42020a53" */ "@site/docs/03-Supporter-Guides/advanced-security-practices.mdx"), "@site/docs/03-Supporter-Guides/advanced-security-practices.mdx", require.resolveWeak("@site/docs/03-Supporter-Guides/advanced-security-practices.mdx")],
   "42a3fc6e": [() => import(/* webpackChunkName: "42a3fc6e" */ "@site/docs/legal/legal-overview.mdx"), "@site/docs/legal/legal-overview.mdx", require.resolveWeak("@site/docs/legal/legal-overview.mdx")],
+  "57b59cd4": [() => import(/* webpackChunkName: "57b59cd4" */ "@site/src/pages/community.tsx"), "@site/src/pages/community.tsx", require.resolveWeak("@site/src/pages/community.tsx")],
   "5e95c892": [() => import(/* webpackChunkName: "5e95c892" */ "@theme/DocsRoot"), "@theme/DocsRoot", require.resolveWeak("@theme/DocsRoot")],
   "5e9f5e1a": [() => import(/* webpackChunkName: "5e9f5e1a" */ "@generated/docusaurus.config"), "@generated/docusaurus.config", require.resolveWeak("@generated/docusaurus.config")],
   "6bdba9c6": [() => import(/* webpackChunkName: "6bdba9c6" */ "@site/docs/legal/privacy.mdx"), "@site/docs/legal/privacy.mdx", require.resolveWeak("@site/docs/legal/privacy.mdx")],

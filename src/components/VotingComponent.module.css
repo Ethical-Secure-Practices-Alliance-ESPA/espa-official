@@ -1,0 +1,63 @@
+.votingContainer {
+  margin: 0 auto;
+  padding: 1.5rem;
+  max-width: 100%;
+}
+
+/* Chart + list layout */
+.topSitesContainer {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+/* Recharts responsiveness */
+.recharts-wrapper {
+  max-width: 100%;
+}
+
+/* List */
+.siteList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.siteItem {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+/* Buttons */
+.voteButton {
+  margin-top: 0.5rem;
+}
+
+/* Form */
+.formRow {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+/* Desktop enhancements */
+@media (min-width: 768px) {
+  .formRow {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .topSitesContainer {
+    justify-content: flex-start;
+  }
+}
+
+
+
+
+
+
+
+
+

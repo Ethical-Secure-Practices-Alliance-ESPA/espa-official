@@ -1,0 +1,54 @@
+/* Page title */
+.votingHeader {
+  text-align: center;
+  margin: 2rem 0 1rem;
+}
+
+/* ===== CHART SECTION ===== */
+.chartSection {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+}
+
+/* ===== HERO SPLIT ===== */
+.splitHero {
+  text-align: center;
+  padding: 2rem 1rem;
+  margin: 2rem 0;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+  border-bottom: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.splitHeroText {
+  max-width: 680px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--ifm-color-content-secondary);
+}
+
+/* ===== LIST SECTION ===== */
+.listSection {
+  margin-top: 2rem;
+}
+
+/* ===== INFO ===== */
+.instructionsSection {
+  margin-top: 4rem;
+  font-size: 0.95rem;
+}
+
+/* ===== MOBILE FIXES ===== */
+@media (max-width: 768px) {
+  .splitHero {
+    padding: 1.5rem 1rem;
+  }
+
+  .splitHeroText {
+    font-size: 1rem;
+  }
+}
+
+
+

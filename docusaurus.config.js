@@ -74,11 +74,18 @@ const config = {
           { to: '/about', label: 'About', position: 'left' },
           { to: '/transparency', label: 'Transparency', position: 'left' },
           {
+  label: 'Community',
+  to: '/community',
+  position: 'left',
+},
+
+          {
             type: 'docSidebar',
             sidebarId: 'documentation',
             position: 'left',
             label: 'Documentation',
           },
+          
           { type: 'search', position: 'right' },
           { to: '/supporters', label: 'Support ESPA', position: 'right' },
           { to: '/contact', label: 'Contact', position: 'right' },

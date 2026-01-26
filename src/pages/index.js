@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 
-
 export default function Home() {
   return (
     <Layout
@@ -12,21 +11,21 @@ export default function Home() {
       <main>
 
         {/* Hero Section */}
-      <section className="espa-hero">
-      <h1>Welcome to E.S.P.A.</h1>
-      <p>
-        Your trusted guide for ethical, secure, and responsible internet usage.
-      </p>
-      </section>
-
+        <section className="espa-hero">
+          <h1>Welcome to E.S.P.A.</h1>
+          <p>
+            Your community-driven guide for ethical behavior online and practical home PC security.
+          </p>
+        </section>
 
         {/* Mission */}
         <section style={{ padding: '3rem 1rem', maxWidth: '960px', margin: '0 auto' }}>
           <h2>Our Mission</h2>
           <p>
-            Ethical & Secure Practices Alliance (E.S.P.A.) provides clear, neutral,
-            and accessible guidance to help individuals and organizations make
-            informed decisions about privacy, security, and responsible online behavior.
+            Ethical & Secure Practices Alliance (E.S.P.A.) empowers individuals and organizations
+            to take proactive steps toward internet safety, responsible digital behavior,
+            and home computer security. We provide actionable guidance on privacy, DNS security,
+            trustworthy online sources, and ethical decision-making online.
           </p>
         </section>
 
@@ -37,13 +36,16 @@ export default function Home() {
 
             <ul>
               <li>
-                <strong>Privacy First:</strong> Minimize data exposure and understand how information is used online.
+                <strong>Privacy & Trust:</strong> Understand what data you share and which sites and services you can trust.
               </li>
               <li>
-                <strong>Ethical Behavior:</strong> Respect digital rights, autonomy, and public-interest values.
+                <strong>Ethical Online Behavior:</strong> Promote honesty, respect, and accountability in digital spaces.
               </li>
               <li>
-                <strong>Security Awareness:</strong> Learn practical steps to protect accounts, devices, and communications.
+                <strong>Proactive Security:</strong> Protect your devices, home network, and DNS from potential threats.
+              </li>
+              <li>
+                <strong>Community-Driven Guidance:</strong> Learn from peers, share experiences, and collectively improve safe online practices.
               </li>
             </ul>
           </div>
@@ -53,31 +55,28 @@ export default function Home() {
         <section style={{ padding: '3rem 1rem', maxWidth: '960px', margin: '0 auto' }}>
           <h2>Who ESPA Serves</h2>
 
-          <h3>Home Users</h3>
+          <h3>Home Users & Families</h3>
           <p>
-            Clear, non-technical guidance for safer everyday internet use,
-            privacy protection, and informed decision-making.
+            Practical, non-technical guidance for securing personal devices, safely navigating the internet,
+            and making informed choices about the sites and services you use.
           </p>
 
           <h3>NGOs & Organizations</h3>
           <p>
-            Governance-aware documentation designed to support ethical practices,
-            internal policy alignment, and responsible security culture.
+            Governance-aware documentation to support ethical online policies, internal security culture,
+            and responsible digital behavior.
           </p>
 
           <p>
-            ESPA provides <strong>general guidance only</strong>. Employees and
-            members must always follow their organization’s official policies
-            and directives.
+            ESPA provides <strong>general guidance only</strong>. Always follow your organization’s official policies and directives.
           </p>
         </section>
 
         {/* Call to Action */}
         <section style={{ padding: '3rem 1rem', textAlign: 'center', background: '#333', color: '#fff' }}>
-          <h2>Explore the Documentation</h2>
+          <h2>Explore Our Guides</h2>
           <p style={{ maxWidth: '720px', margin: '1rem auto' }}>
-            All public guides are freely accessible. Supporter-funded advanced
-            guides help sustain ESPA’s mission.
+            All public guides are freely accessible. Supporter-funded advanced guides help sustain ESPA’s mission.
           </p>
 
           <Link
@@ -92,4 +91,5 @@ export default function Home() {
     </Layout>
   );
 }
+
 

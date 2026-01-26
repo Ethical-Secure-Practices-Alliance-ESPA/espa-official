@@ -8,6 +8,11 @@ export default [
     exact: true
   },
   {
+    path: '/community/',
+    component: ComponentCreator('/community/', 'a24'),
+    exact: true
+  },
+  {
     path: '/contact/',
     component: ComponentCreator('/contact/', '66c'),
     exact: true

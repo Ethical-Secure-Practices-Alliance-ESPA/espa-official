@@ -85,6 +85,11 @@ export default {
           "position": "left"
         },
         {
+          "label": "Community",
+          "to": "/community",
+          "position": "left"
+        },
+        {
           "type": "docSidebar",
           "sidebarId": "documentation",
           "position": "left",
